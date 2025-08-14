@@ -39,7 +39,5 @@ class Events(commands.Cog):
 
         await log_edit_channel.send(embed=event_embed)
 
-
-
 async def setup(bot):
     await bot.add_cog(Events(bot))
