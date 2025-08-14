@@ -18,5 +18,5 @@ async def main():
     async with bot:
         await load()
         await bot.start(TOKEN)
-
+// ЖОПАААААААААА
 asyncio.run(main())
